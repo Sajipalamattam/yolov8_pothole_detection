@@ -68,6 +68,17 @@ class_id center_x center_y width height
 
 The values are normalized from 0 to 1. For this project, the pothole class ID is `0`.
 
+## Dataset source
+
+The training dataset used for this project is available on Kaggle:
+
+[Potholes Detection YOLOv8 dataset](https://www.kaggle.com/datasets/anggadwisunarto/potholes-detection-yolov8/)
+
+Download the dataset from Kaggle, then copy or reorganize its files into the layout
+shown above. Confirm that `data/data.yaml` points to the local image folders and that
+the corresponding YOLO label files are in the matching `labels` folders. Check the
+Kaggle dataset page for its license and usage terms before redistributing the data.
+
 ## Dataset configuration
 
 Open `data/data.yaml` if the dataset location or class names need to change. The
