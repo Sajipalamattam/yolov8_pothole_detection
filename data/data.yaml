@@ -1,0 +1,8 @@
+path: D:/pothole_detection_project/data
+train: train/images
+val: valid/images
+test: valid/images
+
+nc: 1
+names:
+  0: pothole

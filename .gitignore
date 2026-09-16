@@ -1,0 +1,24 @@
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# ML datasets, checkpoints, and generated experiment artifacts
+data/train/
+data/valid/
+data/test/
+*.pt
+*.pth
+*.onnx
+*.weights
+results/
+test_results/
+single_test_results/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
